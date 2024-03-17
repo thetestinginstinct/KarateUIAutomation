@@ -1,0 +1,1338 @@
+19:58:28.468 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:58:29.613 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:58:29.708 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+19:58:29.711 [chrome_1710685709695] DEBUG c.i.k.driver.chrome_1710685709695 - command: [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chrome_1710685709695, --disable-popup-blocking], working dir: target\chrome_1710685709695
+19:58:29.720 [main] DEBUG c.i.k.driver.chrome_1710685709695 - poll attempt #0 for port to be ready - localhost:9222
+19:58:29.992 [main] DEBUG c.i.k.driver.chrome_1710685709695 - poll attempt #1 for port to be ready - localhost:9222
+19:58:30.123 [chrome_1710685709695-out] DEBUG c.i.k.driver.chrome_1710685709695 - 
+19:58:30.123 [chrome_1710685709695-out] DEBUG c.i.k.driver.chrome_1710685709695 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/55d07807-7897-4284-88df-5b643df4bc22
+19:58:30.312 [main] DEBUG c.i.k.driver.chrome_1710685709695 - poll attempt #2 for port to be ready - localhost:9222
+19:58:31.438 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:58:31.480 [main] DEBUG com.intuit.karate - response time in milliseconds: 38
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1787
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/4EF4BC544F204BA27A7BA0404DC815F7",
+   "id": "4EF4BC544F204BA27A7BA0404DC815F7",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/4EF4BC544F204BA27A7BA0404DC815F7"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/5507C0F5DB0DD3FB715FE88973353EFD",
+   "id": "5507C0F5DB0DD3FB715FE88973353EFD",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/5507C0F5DB0DD3FB715FE88973353EFD"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/76ECAD6F451793E3A446C05866499595",
+   "id": "76ECAD6F451793E3A446C05866499595",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/76ECAD6F451793E3A446C05866499595"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/B563F311CB5EB4FCD3350B53A9C5D99A",
+   "id": "B563F311CB5EB4FCD3350B53A9C5D99A",
+   "parentId": "76ECAD6F451793E3A446C05866499595",
+   "title": "chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=",
+   "type": "iframe",
+   "url": "chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/B563F311CB5EB4FCD3350B53A9C5D99A"
+} ]
+
+
+19:58:31.500 [main] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 1134 ms - http://localhost:9222/json
+19:58:31.503 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:58:31.504 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1787
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/4EF4BC544F204BA27A7BA0404DC815F7",
+   "id": "4EF4BC544F204BA27A7BA0404DC815F7",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/4EF4BC544F204BA27A7BA0404DC815F7"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/5507C0F5DB0DD3FB715FE88973353EFD",
+   "id": "5507C0F5DB0DD3FB715FE88973353EFD",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/5507C0F5DB0DD3FB715FE88973353EFD"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/76ECAD6F451793E3A446C05866499595",
+   "id": "76ECAD6F451793E3A446C05866499595",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/76ECAD6F451793E3A446C05866499595"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/B563F311CB5EB4FCD3350B53A9C5D99A",
+   "id": "B563F311CB5EB4FCD3350B53A9C5D99A",
+   "parentId": "76ECAD6F451793E3A446C05866499595",
+   "title": "chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=",
+   "type": "iframe",
+   "url": "chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/B563F311CB5EB4FCD3350B53A9C5D99A"
+} ]
+
+
+19:58:31.508 [main] DEBUG c.i.k.driver.chrome_1710685709695 - root frame id: 76ECAD6F451793E3A446C05866499595
+19:58:31.878 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client connected
+19:58:31.881 [main] DEBUG c.i.k.driver.chrome_1710685709695 - >> {"id":1,"method":"Target.attachToTarget","params":{"targetId":"76ECAD6F451793E3A446C05866499595","flatten":true}}
+19:58:31.904 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Target.attachedToTarget","params":{"sessionId":"89B5F924819868610DA5DA6D366EF389","targetInfo":{"targetId":"76ECAD6F451793E3A446C05866499595","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"3512DC8A1F930B50E020CE064F8284D0"},"waitingForDebugger":false}}
+19:58:31.905 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"id":1,"result":{"sessionId":"89B5F924819868610DA5DA6D366EF389"}}
+19:58:31.906 [main] DEBUG c.i.k.driver.chrome_1710685709695 - >> {"id":2,"sessionId":"89B5F924819868610DA5DA6D366EF389","method":"Target.activateTarget","params":{"targetId":"76ECAD6F451793E3A446C05866499595"}}
+19:58:31.908 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"id":2,"result":{},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:31.909 [main] DEBUG c.i.k.driver.chrome_1710685709695 - >> {"id":3,"sessionId":"89B5F924819868610DA5DA6D366EF389","method":"Target.setDiscoverTargets","params":{"discover":true}}
+19:58:31.910 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"4EF4BC544F204BA27A7BA0404DC815F7","type":"background_page","title":"Google Network Speech","url":"chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"3512DC8A1F930B50E020CE064F8284D0"}},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:31.911 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"5507C0F5DB0DD3FB715FE88973353EFD","type":"background_page","title":"Google Hangouts","url":"chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html","attached":false,"canAccessOpener":false,"browserContextId":"3512DC8A1F930B50E020CE064F8284D0"}},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:31.912 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"76ECAD6F451793E3A446C05866499595","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"3512DC8A1F930B50E020CE064F8284D0"}},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:31.912 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"B563F311CB5EB4FCD3350B53A9C5D99A","type":"iframe","title":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","url":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","attached":false,"canAccessOpener":false,"browserContextId":"3512DC8A1F930B50E020CE064F8284D0"}},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:31.913 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"id":3,"result":{},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:31.914 [main] DEBUG c.i.k.driver.chrome_1710685709695 - >> {"id":4,"sessionId":"89B5F924819868610DA5DA6D366EF389","method":"Page.enable"}
+19:58:31.918 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"id":4,"result":{},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:31.919 [main] DEBUG c.i.k.driver.chrome_1710685709695 - >> {"id":5,"sessionId":"89B5F924819868610DA5DA6D366EF389","method":"Runtime.enable"}
+19:58:31.923 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"chrome://new-tab-page","name":"","uniqueId":"-2084558269976854766.5297596914377378099","auxData":{"isDefault":true,"type":"default","frameId":"ACD222749AFF29A6EA7EDD16AA216A54"}}},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:31.923 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://new-tab-page","name":"","uniqueId":"-9032236999838017433.3673202618014495116","auxData":{"isDefault":true,"type":"default","frameId":"76ECAD6F451793E3A446C05866499595"}}},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:31.925 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"id":5,"result":{},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:31.925 [main] DEBUG c.i.k.driver.chrome_1710685709695 - >> {"id":6,"sessionId":"89B5F924819868610DA5DA6D366EF389","method":"Browser.getWindowForTarget","params":{"targetId":"76ECAD6F451793E3A446C05866499595"}}
+19:58:31.927 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"id":6,"result":{"windowId":1792469816,"bounds":{"left":9,"top":9,"width":1051,"height":798,"windowState":"normal"}},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:32.025 [main] DEBUG c.i.k.driver.chrome_1710685709695 - >> {"id":7,"sessionId":"89B5F924819868610DA5DA6D366EF389","method":"Page.navigate","params":{"url":"https:\/\/www.saucedemo.com\/"}}
+19:58:32.030 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Page.frameStartedLoading","params":{"frameId":"76ECAD6F451793E3A446C05866499595"},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:32.488 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"id":7,"result":{"frameId":"76ECAD6F451793E3A446C05866499595","loaderId":"93B6B6284C0CE853D21B2681EC632EE9"},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:32.490 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:32.500 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"76ECAD6F451793E3A446C05866499595","type":"page","title":"saucedemo.com","url":"https://www.saucedemo.com/","attached":true,"canAccessOpener":false,"browserContextId":"3512DC8A1F930B50E020CE064F8284D0"}},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:32.509 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:32.510 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"76ECAD6F451793E3A446C05866499595","loaderId":"93B6B6284C0CE853D21B2681EC632EE9","url":"https://www.saucedemo.com/","domainAndRegistry":"saucedemo.com","securityOrigin":"https://www.saucedemo.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:32.513 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.saucedemo.com","name":"","uniqueId":"3100066884560867672.-4613526408438236826","auxData":{"isDefault":true,"type":"default","frameId":"76ECAD6F451793E3A446C05866499595"}}},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:32.675 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Page.frameDetached","params":{"frameId":"B563F311CB5EB4FCD3350B53A9C5D99A","reason":"remove"},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:32.676 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Target.targetDestroyed","params":{"targetId":"B563F311CB5EB4FCD3350B53A9C5D99A"},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:32.835 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Page.domContentEventFired","params":{"timestamp":340271.809293},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:32.837 [main] DEBUG c.i.k.driver.chrome_1710685709695 - >> {"id":8,"sessionId":"89B5F924819868610DA5DA6D366EF389","method":"Target.closeTarget","params":{"targetId":"76ECAD6F451793E3A446C05866499595"}}
+19:58:32.839 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"id":8,"result":{"success":true},"sessionId":"89B5F924819868610DA5DA6D366EF389"}
+19:58:32.843 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710685709695 - << {"method":"Inspector.detached","params":{"reason":"target_closed"}}
+19:58:32.845 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client disconnected
+19:58:32.933 [main] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1710685709695
+19:58:33.492 [chrome_1710685709695] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chrome_1710685709695, --disable-popup-blocking] working dir: target\chrome_1710685709695
+19:58:33.813 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/tests/RunUIAutomationScriptInChrome.feature
+19:59:02.365 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:59:02.377 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710685742373
+19:59:03.427 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:59:03.505 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+19:59:03.507 [chromedriver_1710685743493] DEBUG c.i.k.d.chromedriver_1710685743493 - command: [C:/Users/akhil/eclipse-workspace/KarateUIAutomation/src/test/java/BrowserDrivers/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chromedriver_1710685743493], working dir: target\chromedriver_1710685743493
+19:59:03.515 [main] DEBUG c.i.k.d.chromedriver_1710685743493 - poll attempt #0 for port to be ready - localhost:9515
+19:59:03.778 [main] DEBUG c.i.k.d.chromedriver_1710685743493 - poll attempt #1 for port to be ready - localhost:9515
+19:59:03.793 [chromedriver_1710685743493-out] DEBUG c.i.k.d.chromedriver_1710685743493 - Starting ChromeDriver 122.0.6261.128 (f18a44fedeb29764b2b5336c120fdd90ef1a3f5c-refs/branch-heads/6261@{#1057}) on port 9515
+19:59:03.794 [chromedriver_1710685743493-out] DEBUG c.i.k.d.chromedriver_1710685743493 - Only local connections are allowed.
+19:59:03.794 [chromedriver_1710685743493-out] DEBUG c.i.k.d.chromedriver_1710685743493 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+19:59:03.797 [chromedriver_1710685743493-out] DEBUG c.i.k.d.chromedriver_1710685743493 - ChromeDriver was started successfully.
+19:59:04.043 [main] DEBUG c.i.k.d.chromedriver_1710685743493 - poll attempt #2 for port to be ready - localhost:9515
+19:59:04.325 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 57
+1 > Host: localhost:9515
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+19:59:05.253 [main] DEBUG com.intuit.karate - response time in milliseconds: 923
+1 < 200
+1 < Content-Length: 883
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"122.0.6261.129","chrome":{"chromedriverVersion":"122.0.6261.128 (f18a44fedeb29764b2b5336c120fdd90ef1a3f5c-refs/branch-heads/6261@{#1057})","userDataDir":"C:\\Users\\akhil\\AppData\\Local\\Temp\\scoped_dir8580_1113450210"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:64480"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"1384b36c8b1e14815c58566d2c598b58"}}
+
+19:59:05.261 [main] DEBUG c.i.k.d.chromedriver_1710685743493 - init session id: 1384b36c8b1e14815c58566d2c598b58
+19:59:05.380 [main] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9515/session/1384b36c8b1e14815c58566d2c598b58/url
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 39
+2 > Host: localhost:9515
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/www.saucedemo.com\/"}
+
+19:59:05.955 [main] DEBUG com.intuit.karate - response time in milliseconds: 575
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+19:59:05.961 [main] DEBUG com.intuit.karate - request:
+3 > DELETE http://localhost:9515/session/1384b36c8b1e14815c58566d2c598b58/window
+3 > Host: localhost:9515
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+3 > Accept-Encoding: gzip,deflate
+
+
+19:59:06.102 [main] DEBUG com.intuit.karate - response time in milliseconds: 141
+3 < 200
+3 < Content-Length: 12
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":[]}
+
+19:59:06.105 [main] DEBUG com.intuit.karate - request:
+4 > DELETE http://localhost:9515/session/1384b36c8b1e14815c58566d2c598b58
+4 > Host: localhost:9515
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+4 > Accept-Encoding: gzip,deflate
+
+
+19:59:06.163 [main] DEBUG com.intuit.karate - response time in milliseconds: 57
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+19:59:06.164 [main] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1710685743493
+19:59:06.274 [chromedriver_1710685743493] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Users/akhil/eclipse-workspace/KarateUIAutomation/src/test/java/BrowserDrivers/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chromedriver_1710685743493] working dir: target\chromedriver_1710685743493
+19:59:06.856 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/tests/RunUIAutomationScriptInChrome.feature
+19:59:20.569 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:59:20.583 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710685760574
+19:59:21.496 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:59:21.572 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+19:59:21.575 [chromedriver_1710685761565] DEBUG c.i.k.d.chromedriver_1710685761565 - command: [chromedriver, --port=9515, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chromedriver_1710685761565], working dir: target\chromedriver_1710685761565
+19:59:21.585 [main] DEBUG c.i.k.d.chromedriver_1710685761565 - poll attempt #0 for port to be ready - localhost:9515
+19:59:21.625 [chromedriver_1710685761565-out] DEBUG c.i.k.d.chromedriver_1710685761565 - Starting ChromeDriver 122.0.6261.128 (f18a44fedeb29764b2b5336c120fdd90ef1a3f5c-refs/branch-heads/6261@{#1057}) on port 9515
+19:59:21.625 [chromedriver_1710685761565-out] DEBUG c.i.k.d.chromedriver_1710685761565 - Only local connections are allowed.
+19:59:21.625 [chromedriver_1710685761565-out] DEBUG c.i.k.d.chromedriver_1710685761565 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+19:59:21.629 [chromedriver_1710685761565-out] DEBUG c.i.k.d.chromedriver_1710685761565 - ChromeDriver was started successfully.
+19:59:21.852 [main] DEBUG c.i.k.d.chromedriver_1710685761565 - poll attempt #1 for port to be ready - localhost:9515
+19:59:22.149 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 57
+1 > Host: localhost:9515
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+19:59:22.897 [main] DEBUG com.intuit.karate - response time in milliseconds: 743
+1 < 200
+1 < Content-Length: 884
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"122.0.6261.129","chrome":{"chromedriverVersion":"122.0.6261.128 (f18a44fedeb29764b2b5336c120fdd90ef1a3f5c-refs/branch-heads/6261@{#1057})","userDataDir":"C:\\Users\\akhil\\AppData\\Local\\Temp\\scoped_dir23816_1618444247"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:64503"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"90f8465892dadbeb1ec9d24e30a825f7"}}
+
+19:59:22.902 [main] DEBUG c.i.k.d.chromedriver_1710685761565 - init session id: 90f8465892dadbeb1ec9d24e30a825f7
+19:59:23.009 [main] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9515/session/90f8465892dadbeb1ec9d24e30a825f7/url
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 39
+2 > Host: localhost:9515
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/www.saucedemo.com\/"}
+
+19:59:23.655 [main] DEBUG com.intuit.karate - response time in milliseconds: 646
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+19:59:23.658 [main] DEBUG com.intuit.karate - request:
+3 > DELETE http://localhost:9515/session/90f8465892dadbeb1ec9d24e30a825f7/window
+3 > Host: localhost:9515
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+3 > Accept-Encoding: gzip,deflate
+
+
+19:59:23.785 [main] DEBUG com.intuit.karate - response time in milliseconds: 126
+3 < 200
+3 < Content-Length: 12
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":[]}
+
+19:59:23.789 [main] DEBUG com.intuit.karate - request:
+4 > DELETE http://localhost:9515/session/90f8465892dadbeb1ec9d24e30a825f7
+4 > Host: localhost:9515
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+4 > Accept-Encoding: gzip,deflate
+
+
+19:59:23.852 [main] DEBUG com.intuit.karate - response time in milliseconds: 62
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+19:59:23.853 [main] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1710685761565
+19:59:23.975 [chromedriver_1710685761565] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [chromedriver, --port=9515, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chromedriver_1710685761565] working dir: target\chromedriver_1710685761565
+19:59:24.491 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/tests/RunUIAutomationScriptInChrome.feature
+20:17:46.305 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:17:46.330 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710686866322
+20:17:47.757 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:17:47.868 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+20:17:47.871 [chrome_1710686867860] DEBUG c.i.k.driver.chrome_1710686867860 - command: [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chrome_1710686867860, --disable-popup-blocking], working dir: target\chrome_1710686867860
+20:17:47.886 [main] DEBUG c.i.k.driver.chrome_1710686867860 - poll attempt #0 for port to be ready - localhost:9222
+20:17:48.159 [main] DEBUG c.i.k.driver.chrome_1710686867860 - poll attempt #1 for port to be ready - localhost:9222
+20:17:48.310 [chrome_1710686867860-out] DEBUG c.i.k.driver.chrome_1710686867860 - 
+20:17:48.310 [chrome_1710686867860-out] DEBUG c.i.k.driver.chrome_1710686867860 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/5b07efe7-7adf-41be-85dc-e55b599f5fc1
+20:17:48.546 [main] DEBUG c.i.k.driver.chrome_1710686867860 - poll attempt #2 for port to be ready - localhost:9222
+20:17:49.996 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:17:50.054 [main] DEBUG com.intuit.karate - response time in milliseconds: 53
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1267
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/86BD8C7C2AF43A485E395C86F4CF25B0",
+   "id": "86BD8C7C2AF43A485E395C86F4CF25B0",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/86BD8C7C2AF43A485E395C86F4CF25B0"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/BF19B9CD24B93F30C815F58FE573B89B",
+   "id": "BF19B9CD24B93F30C815F58FE573B89B",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/BF19B9CD24B93F30C815F58FE573B89B"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/2713C4745A25C534BD244B77057D00C6",
+   "id": "2713C4745A25C534BD244B77057D00C6",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/2713C4745A25C534BD244B77057D00C6"
+} ]
+
+
+20:17:50.071 [main] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 1480 ms - http://localhost:9222/json
+20:17:50.072 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:17:50.083 [main] DEBUG com.intuit.karate - response time in milliseconds: 10
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1267
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/86BD8C7C2AF43A485E395C86F4CF25B0",
+   "id": "86BD8C7C2AF43A485E395C86F4CF25B0",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/86BD8C7C2AF43A485E395C86F4CF25B0"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/BF19B9CD24B93F30C815F58FE573B89B",
+   "id": "BF19B9CD24B93F30C815F58FE573B89B",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/BF19B9CD24B93F30C815F58FE573B89B"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/2713C4745A25C534BD244B77057D00C6",
+   "id": "2713C4745A25C534BD244B77057D00C6",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/2713C4745A25C534BD244B77057D00C6"
+} ]
+
+
+20:17:50.144 [main] DEBUG c.i.k.driver.chrome_1710686867860 - root frame id: 2713C4745A25C534BD244B77057D00C6
+20:17:50.742 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client connected
+20:17:50.744 [main] DEBUG c.i.k.driver.chrome_1710686867860 - >> {"id":1,"method":"Target.attachToTarget","params":{"targetId":"2713C4745A25C534BD244B77057D00C6","flatten":true}}
+20:17:50.767 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Target.attachedToTarget","params":{"sessionId":"0635AE62EEAA2D44F936E213660A388B","targetInfo":{"targetId":"2713C4745A25C534BD244B77057D00C6","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"803348108AF444B4889A7EF732B934B9"},"waitingForDebugger":false}}
+20:17:50.768 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"id":1,"result":{"sessionId":"0635AE62EEAA2D44F936E213660A388B"}}
+20:17:50.768 [main] DEBUG c.i.k.driver.chrome_1710686867860 - >> {"id":2,"sessionId":"0635AE62EEAA2D44F936E213660A388B","method":"Target.activateTarget","params":{"targetId":"2713C4745A25C534BD244B77057D00C6"}}
+20:17:50.771 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"id":2,"result":{},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:50.771 [main] DEBUG c.i.k.driver.chrome_1710686867860 - >> {"id":3,"sessionId":"0635AE62EEAA2D44F936E213660A388B","method":"Target.setDiscoverTargets","params":{"discover":true}}
+20:17:50.777 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"07AD63938E7ABA412FC72F3D18227522","type":"iframe","title":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","url":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","attached":false,"canAccessOpener":false,"browserContextId":"803348108AF444B4889A7EF732B934B9"}},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:50.778 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"2713C4745A25C534BD244B77057D00C6","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"803348108AF444B4889A7EF732B934B9"}},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:50.781 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"86BD8C7C2AF43A485E395C86F4CF25B0","type":"background_page","title":"Google Network Speech","url":"chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"803348108AF444B4889A7EF732B934B9"}},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:50.782 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"BF19B9CD24B93F30C815F58FE573B89B","type":"background_page","title":"Google Hangouts","url":"chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html","attached":false,"canAccessOpener":false,"browserContextId":"803348108AF444B4889A7EF732B934B9"}},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:50.783 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"id":3,"result":{},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:50.784 [main] DEBUG c.i.k.driver.chrome_1710686867860 - >> {"id":4,"sessionId":"0635AE62EEAA2D44F936E213660A388B","method":"Page.enable"}
+20:17:50.785 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"id":4,"result":{},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:50.786 [main] DEBUG c.i.k.driver.chrome_1710686867860 - >> {"id":5,"sessionId":"0635AE62EEAA2D44F936E213660A388B","method":"Runtime.enable"}
+20:17:50.788 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"chrome://new-tab-page","name":"","uniqueId":"5162612111517616889.1062137775461735911","auxData":{"isDefault":true,"type":"default","frameId":"57BC64DAE6C959B64B023F9032D45C64"}}},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:50.789 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://new-tab-page","name":"","uniqueId":"8189753338736678185.-7191139613411788346","auxData":{"isDefault":true,"type":"default","frameId":"2713C4745A25C534BD244B77057D00C6"}}},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:50.789 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"id":5,"result":{},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:50.790 [main] DEBUG c.i.k.driver.chrome_1710686867860 - >> {"id":6,"sessionId":"0635AE62EEAA2D44F936E213660A388B","method":"Browser.getWindowForTarget","params":{"targetId":"2713C4745A25C534BD244B77057D00C6"}}
+20:17:50.792 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"id":6,"result":{"windowId":1970628024,"bounds":{"left":9,"top":9,"width":1051,"height":798,"windowState":"normal"}},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:50.967 [main] DEBUG c.i.k.driver.chrome_1710686867860 - >> {"id":7,"sessionId":"0635AE62EEAA2D44F936E213660A388B","method":"Page.navigate","params":{"url":"https:\/\/www.saucedemo.com\/"}}
+20:17:50.974 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Page.frameStartedLoading","params":{"frameId":"2713C4745A25C534BD244B77057D00C6"},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:51.253 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"id":7,"result":{"frameId":"2713C4745A25C534BD244B77057D00C6","loaderId":"D6246870CFDBF241EA9F19EE4650C1FA"},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:51.254 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:51.264 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"2713C4745A25C534BD244B77057D00C6","type":"page","title":"saucedemo.com","url":"https://www.saucedemo.com/","attached":true,"canAccessOpener":false,"browserContextId":"803348108AF444B4889A7EF732B934B9"}},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:51.265 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:51.266 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"2713C4745A25C534BD244B77057D00C6","loaderId":"D6246870CFDBF241EA9F19EE4650C1FA","url":"https://www.saucedemo.com/","domainAndRegistry":"saucedemo.com","securityOrigin":"https://www.saucedemo.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:51.267 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.saucedemo.com","name":"","uniqueId":"-4876526994876754101.-1971305693361110352","auxData":{"isDefault":true,"type":"default","frameId":"2713C4745A25C534BD244B77057D00C6"}}},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:51.375 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Page.frameDetached","params":{"frameId":"07AD63938E7ABA412FC72F3D18227522","reason":"remove"},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:51.376 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Target.targetDestroyed","params":{"targetId":"07AD63938E7ABA412FC72F3D18227522"},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:51.597 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"method":"Page.domContentEventFired","params":{"timestamp":341430.570306},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:51.599 [main] DEBUG c.i.k.driver.chrome_1710686867860 - >> {"id":8,"sessionId":"0635AE62EEAA2D44F936E213660A388B","method":"Target.closeTarget","params":{"targetId":"2713C4745A25C534BD244B77057D00C6"}}
+20:17:51.601 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686867860 - << {"id":8,"result":{"success":true},"sessionId":"0635AE62EEAA2D44F936E213660A388B"}
+20:17:51.605 [nioEventLoopGroup-2-1] ERROR c.i.k.http.WebSocketClientHandler - websocket exception: An established connection was aborted by the software in your host machine
+20:17:51.609 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client disconnected
+20:17:51.616 [main] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1710686867860
+20:17:53.196 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/tests/RunUIAutomationScriptInChrome.feature
+20:17:53.264 [chrome_1710686867860] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chrome_1710686867860, --disable-popup-blocking] working dir: target\chrome_1710686867860
+20:18:02.058 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:18:02.068 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710686882063
+20:18:03.204 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:18:03.294 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+20:18:03.301 [chrome_1710686883286] DEBUG c.i.k.driver.chrome_1710686883286 - command: [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chrome_1710686883286, --disable-popup-blocking], working dir: target\chrome_1710686883286
+20:18:03.308 [main] DEBUG c.i.k.driver.chrome_1710686883286 - poll attempt #0 for port to be ready - localhost:9222
+20:18:03.523 [chrome_1710686883286-out] DEBUG c.i.k.driver.chrome_1710686883286 - 
+20:18:03.524 [chrome_1710686883286-out] DEBUG c.i.k.driver.chrome_1710686883286 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/4064f73d-5f46-4d67-a7a6-1aecf374198b
+20:18:03.592 [main] DEBUG c.i.k.driver.chrome_1710686883286 - poll attempt #1 for port to be ready - localhost:9222
+20:18:04.789 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:18:04.960 [main] DEBUG com.intuit.karate - response time in milliseconds: 123
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1267
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/F6109F3EC2DE764DE85A197C04DD2A06",
+   "id": "F6109F3EC2DE764DE85A197C04DD2A06",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/F6109F3EC2DE764DE85A197C04DD2A06"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/E6DC54EF01148705ED84A62CA88F00B1",
+   "id": "E6DC54EF01148705ED84A62CA88F00B1",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/E6DC54EF01148705ED84A62CA88F00B1"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/408CB99150B5E466B4B13C88D4D68F19",
+   "id": "408CB99150B5E466B4B13C88D4D68F19",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/408CB99150B5E466B4B13C88D4D68F19"
+} ]
+
+
+20:18:04.997 [main] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 1310 ms - http://localhost:9222/json
+20:18:05.005 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:18:05.008 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1267
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/F6109F3EC2DE764DE85A197C04DD2A06",
+   "id": "F6109F3EC2DE764DE85A197C04DD2A06",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/F6109F3EC2DE764DE85A197C04DD2A06"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/E6DC54EF01148705ED84A62CA88F00B1",
+   "id": "E6DC54EF01148705ED84A62CA88F00B1",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/E6DC54EF01148705ED84A62CA88F00B1"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/408CB99150B5E466B4B13C88D4D68F19",
+   "id": "408CB99150B5E466B4B13C88D4D68F19",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/408CB99150B5E466B4B13C88D4D68F19"
+} ]
+
+
+20:18:05.012 [main] DEBUG c.i.k.driver.chrome_1710686883286 - root frame id: 408CB99150B5E466B4B13C88D4D68F19
+20:18:05.591 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client connected
+20:18:05.594 [main] DEBUG c.i.k.driver.chrome_1710686883286 - >> {"id":1,"method":"Target.attachToTarget","params":{"targetId":"408CB99150B5E466B4B13C88D4D68F19","flatten":true}}
+20:18:05.613 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Target.attachedToTarget","params":{"sessionId":"092BDB82223DB0A1E66F87B21D907BEB","targetInfo":{"targetId":"408CB99150B5E466B4B13C88D4D68F19","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"25EECB9C21BAAEB4DD209F73AE5F5B8B"},"waitingForDebugger":false}}
+20:18:05.614 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"id":1,"result":{"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}}
+20:18:05.615 [main] DEBUG c.i.k.driver.chrome_1710686883286 - >> {"id":2,"sessionId":"092BDB82223DB0A1E66F87B21D907BEB","method":"Target.activateTarget","params":{"targetId":"408CB99150B5E466B4B13C88D4D68F19"}}
+20:18:05.619 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"id":2,"result":{},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.620 [main] DEBUG c.i.k.driver.chrome_1710686883286 - >> {"id":3,"sessionId":"092BDB82223DB0A1E66F87B21D907BEB","method":"Target.setDiscoverTargets","params":{"discover":true}}
+20:18:05.621 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"408CB99150B5E466B4B13C88D4D68F19","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"25EECB9C21BAAEB4DD209F73AE5F5B8B"}},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.621 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"62988C022DD983FB766E49D592196543","type":"iframe","title":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","url":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","attached":false,"canAccessOpener":false,"browserContextId":"25EECB9C21BAAEB4DD209F73AE5F5B8B"}},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.622 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"E6DC54EF01148705ED84A62CA88F00B1","type":"background_page","title":"Google Hangouts","url":"chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html","attached":false,"canAccessOpener":false,"browserContextId":"25EECB9C21BAAEB4DD209F73AE5F5B8B"}},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.622 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"F6109F3EC2DE764DE85A197C04DD2A06","type":"background_page","title":"Google Network Speech","url":"chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"25EECB9C21BAAEB4DD209F73AE5F5B8B"}},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.623 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"id":3,"result":{},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.623 [main] DEBUG c.i.k.driver.chrome_1710686883286 - >> {"id":4,"sessionId":"092BDB82223DB0A1E66F87B21D907BEB","method":"Page.enable"}
+20:18:05.625 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"id":4,"result":{},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.626 [main] DEBUG c.i.k.driver.chrome_1710686883286 - >> {"id":5,"sessionId":"092BDB82223DB0A1E66F87B21D907BEB","method":"Runtime.enable"}
+20:18:05.629 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"chrome://new-tab-page","name":"","uniqueId":"-6135871277332991466.2348282240347402215","auxData":{"isDefault":true,"type":"default","frameId":"6B09C6E794B244534BEB0B3FAAA96347"}}},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.629 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://new-tab-page","name":"","uniqueId":"-4674870912148725716.-6642104155519028108","auxData":{"isDefault":true,"type":"default","frameId":"408CB99150B5E466B4B13C88D4D68F19"}}},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.630 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"id":5,"result":{},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.631 [main] DEBUG c.i.k.driver.chrome_1710686883286 - >> {"id":6,"sessionId":"092BDB82223DB0A1E66F87B21D907BEB","method":"Browser.getWindowForTarget","params":{"targetId":"408CB99150B5E466B4B13C88D4D68F19"}}
+20:18:05.633 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"id":6,"result":{"windowId":1197964660,"bounds":{"left":9,"top":9,"width":1051,"height":798,"windowState":"normal"}},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.816 [main] DEBUG c.i.k.driver.chrome_1710686883286 - >> {"id":7,"sessionId":"092BDB82223DB0A1E66F87B21D907BEB","method":"Page.navigate","params":{"url":"https:\/\/www.saucedemo.com\/"}}
+20:18:05.827 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Page.frameStartedLoading","params":{"frameId":"408CB99150B5E466B4B13C88D4D68F19"},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.940 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"id":7,"result":{"frameId":"408CB99150B5E466B4B13C88D4D68F19","loaderId":"760D94D3F3845271D26357E5D5A4020A"},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.942 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.951 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"408CB99150B5E466B4B13C88D4D68F19","type":"page","title":"saucedemo.com","url":"https://www.saucedemo.com/","attached":true,"canAccessOpener":false,"browserContextId":"25EECB9C21BAAEB4DD209F73AE5F5B8B"}},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.953 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.954 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"408CB99150B5E466B4B13C88D4D68F19","loaderId":"760D94D3F3845271D26357E5D5A4020A","url":"https://www.saucedemo.com/","domainAndRegistry":"saucedemo.com","securityOrigin":"https://www.saucedemo.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.955 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.saucedemo.com","name":"","uniqueId":"8032313795611129992.-1671076021240600126","auxData":{"isDefault":true,"type":"default","frameId":"408CB99150B5E466B4B13C88D4D68F19"}}},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.992 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Page.frameDetached","params":{"frameId":"62988C022DD983FB766E49D592196543","reason":"remove"},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:05.993 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Target.targetDestroyed","params":{"targetId":"62988C022DD983FB766E49D592196543"},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:06.343 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"method":"Page.domContentEventFired","params":{"timestamp":341445.317818},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:06.344 [main] DEBUG c.i.k.driver.chrome_1710686883286 - >> {"id":8,"sessionId":"092BDB82223DB0A1E66F87B21D907BEB","method":"Target.closeTarget","params":{"targetId":"408CB99150B5E466B4B13C88D4D68F19"}}
+20:18:06.351 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686883286 - << {"id":8,"result":{"success":true},"sessionId":"092BDB82223DB0A1E66F87B21D907BEB"}
+20:18:06.355 [nioEventLoopGroup-2-1] ERROR c.i.k.http.WebSocketClientHandler - websocket exception: An established connection was aborted by the software in your host machine
+20:18:06.357 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client disconnected
+20:18:06.469 [main] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1710686883286
+20:18:07.601 [chrome_1710686883286] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chrome_1710686883286, --disable-popup-blocking] working dir: target\chrome_1710686883286
+20:18:07.803 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/tests/RunUIAutomationScriptInChrome.feature
+20:18:51.266 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:18:51.279 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710686931273
+20:18:52.383 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:18:52.475 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+20:18:52.484 [chromedriver_1710686932458] DEBUG c.i.k.d.chromedriver_1710686932458 - command: [C:/Users/akhil/eclipse-workspace/KarateUIAutomation/src/test/java/BrowserDrivers/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chromedriver_1710686932458], working dir: target\chromedriver_1710686932458
+20:18:52.492 [main] DEBUG c.i.k.d.chromedriver_1710686932458 - poll attempt #0 for port to be ready - localhost:9515
+20:18:52.760 [main] DEBUG c.i.k.d.chromedriver_1710686932458 - poll attempt #1 for port to be ready - localhost:9515
+20:18:52.793 [chromedriver_1710686932458-out] DEBUG c.i.k.d.chromedriver_1710686932458 - Starting ChromeDriver 122.0.6261.128 (f18a44fedeb29764b2b5336c120fdd90ef1a3f5c-refs/branch-heads/6261@{#1057}) on port 9515
+20:18:52.793 [chromedriver_1710686932458-out] DEBUG c.i.k.d.chromedriver_1710686932458 - Only local connections are allowed.
+20:18:52.793 [chromedriver_1710686932458-out] DEBUG c.i.k.d.chromedriver_1710686932458 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+20:18:52.799 [chromedriver_1710686932458-out] DEBUG c.i.k.d.chromedriver_1710686932458 - ChromeDriver was started successfully.
+20:18:53.011 [main] DEBUG c.i.k.d.chromedriver_1710686932458 - poll attempt #2 for port to be ready - localhost:9515
+20:18:53.361 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 57
+1 > Host: localhost:9515
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+20:18:54.374 [main] DEBUG com.intuit.karate - response time in milliseconds: 1010
+1 < 200
+1 < Content-Length: 884
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"122.0.6261.129","chrome":{"chromedriverVersion":"122.0.6261.128 (f18a44fedeb29764b2b5336c120fdd90ef1a3f5c-refs/branch-heads/6261@{#1057})","userDataDir":"C:\\Users\\akhil\\AppData\\Local\\Temp\\scoped_dir10708_1152790394"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:64731"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"96e4f8515ee9342bf22bab85871f75e6"}}
+
+20:18:54.379 [main] DEBUG c.i.k.d.chromedriver_1710686932458 - init session id: 96e4f8515ee9342bf22bab85871f75e6
+20:18:54.529 [main] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9515/session/96e4f8515ee9342bf22bab85871f75e6/url
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 39
+2 > Host: localhost:9515
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/www.saucedemo.com\/"}
+
+20:18:55.376 [main] DEBUG com.intuit.karate - response time in milliseconds: 847
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+20:18:55.380 [main] DEBUG com.intuit.karate - request:
+3 > DELETE http://localhost:9515/session/96e4f8515ee9342bf22bab85871f75e6/window
+3 > Host: localhost:9515
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+3 > Accept-Encoding: gzip,deflate
+
+
+20:18:55.526 [main] DEBUG com.intuit.karate - response time in milliseconds: 146
+3 < 200
+3 < Content-Length: 12
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":[]}
+
+20:18:55.530 [main] DEBUG com.intuit.karate - request:
+4 > DELETE http://localhost:9515/session/96e4f8515ee9342bf22bab85871f75e6
+4 > Host: localhost:9515
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+4 > Accept-Encoding: gzip,deflate
+
+
+20:18:55.603 [main] DEBUG com.intuit.karate - response time in milliseconds: 73
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+20:18:55.604 [main] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1710686932458
+20:18:55.694 [chromedriver_1710686932458] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Users/akhil/eclipse-workspace/KarateUIAutomation/src/test/java/BrowserDrivers/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chromedriver_1710686932458] working dir: target\chromedriver_1710686932458
+20:18:56.206 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/tests/RunUIAutomationScriptInChrome.feature
+20:19:17.655 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:19:17.666 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710686957661
+20:19:18.645 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:19:18.725 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+20:19:18.729 [chrome_1710686958716] DEBUG c.i.k.driver.chrome_1710686958716 - command: [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chrome_1710686958716, --disable-popup-blocking], working dir: target\chrome_1710686958716
+20:19:18.736 [main] DEBUG c.i.k.driver.chrome_1710686958716 - poll attempt #0 for port to be ready - localhost:9222
+20:19:18.932 [chrome_1710686958716-out] DEBUG c.i.k.driver.chrome_1710686958716 - 
+20:19:18.933 [chrome_1710686958716-out] DEBUG c.i.k.driver.chrome_1710686958716 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/d9cb3aa4-4a97-4c61-b0ca-f803a9e3b77d
+20:19:19.119 [main] DEBUG c.i.k.driver.chrome_1710686958716 - poll attempt #1 for port to be ready - localhost:9222
+20:19:20.074 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:19:20.111 [main] DEBUG com.intuit.karate - response time in milliseconds: 34
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1267
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/ECE42AC334A131E84C1008C38E8816B0",
+   "id": "ECE42AC334A131E84C1008C38E8816B0",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/ECE42AC334A131E84C1008C38E8816B0"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/87993464815667F8F05B2E99819A364A",
+   "id": "87993464815667F8F05B2E99819A364A",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/87993464815667F8F05B2E99819A364A"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/4FCFA9A539F01877EE402A86D1375538",
+   "id": "4FCFA9A539F01877EE402A86D1375538",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/4FCFA9A539F01877EE402A86D1375538"
+} ]
+
+
+20:19:20.120 [main] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 948 ms - http://localhost:9222/json
+20:19:20.122 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:19:20.123 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1267
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/ECE42AC334A131E84C1008C38E8816B0",
+   "id": "ECE42AC334A131E84C1008C38E8816B0",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/ECE42AC334A131E84C1008C38E8816B0"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/87993464815667F8F05B2E99819A364A",
+   "id": "87993464815667F8F05B2E99819A364A",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/87993464815667F8F05B2E99819A364A"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/4FCFA9A539F01877EE402A86D1375538",
+   "id": "4FCFA9A539F01877EE402A86D1375538",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/4FCFA9A539F01877EE402A86D1375538"
+} ]
+
+
+20:19:20.127 [main] DEBUG c.i.k.driver.chrome_1710686958716 - root frame id: 4FCFA9A539F01877EE402A86D1375538
+20:19:20.513 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client connected
+20:19:20.515 [main] DEBUG c.i.k.driver.chrome_1710686958716 - >> {"id":1,"method":"Target.attachToTarget","params":{"targetId":"4FCFA9A539F01877EE402A86D1375538","flatten":true}}
+20:19:20.530 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Target.attachedToTarget","params":{"sessionId":"9D3FA25F958FF326CC7E73319628645A","targetInfo":{"targetId":"4FCFA9A539F01877EE402A86D1375538","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"F8ADD5568ACEB5C2DAAAF50F20B833CE"},"waitingForDebugger":false}}
+20:19:20.531 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"id":1,"result":{"sessionId":"9D3FA25F958FF326CC7E73319628645A"}}
+20:19:20.533 [main] DEBUG c.i.k.driver.chrome_1710686958716 - >> {"id":2,"sessionId":"9D3FA25F958FF326CC7E73319628645A","method":"Target.activateTarget","params":{"targetId":"4FCFA9A539F01877EE402A86D1375538"}}
+20:19:20.537 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"id":2,"result":{},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.537 [main] DEBUG c.i.k.driver.chrome_1710686958716 - >> {"id":3,"sessionId":"9D3FA25F958FF326CC7E73319628645A","method":"Target.setDiscoverTargets","params":{"discover":true}}
+20:19:20.538 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"110E21ABA5DEF587FDDC5EE71833811D","type":"iframe","title":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","url":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","attached":false,"canAccessOpener":false,"browserContextId":"F8ADD5568ACEB5C2DAAAF50F20B833CE"}},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.539 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"4FCFA9A539F01877EE402A86D1375538","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"F8ADD5568ACEB5C2DAAAF50F20B833CE"}},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.539 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"87993464815667F8F05B2E99819A364A","type":"background_page","title":"Google Hangouts","url":"chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html","attached":false,"canAccessOpener":false,"browserContextId":"F8ADD5568ACEB5C2DAAAF50F20B833CE"}},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.541 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"ECE42AC334A131E84C1008C38E8816B0","type":"background_page","title":"Google Network Speech","url":"chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"F8ADD5568ACEB5C2DAAAF50F20B833CE"}},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.541 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"id":3,"result":{},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.541 [main] DEBUG c.i.k.driver.chrome_1710686958716 - >> {"id":4,"sessionId":"9D3FA25F958FF326CC7E73319628645A","method":"Page.enable"}
+20:19:20.543 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"id":4,"result":{},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.544 [main] DEBUG c.i.k.driver.chrome_1710686958716 - >> {"id":5,"sessionId":"9D3FA25F958FF326CC7E73319628645A","method":"Runtime.enable"}
+20:19:20.546 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"chrome://new-tab-page","name":"","uniqueId":"-5830111883740491381.-1711216079991365056","auxData":{"isDefault":true,"type":"default","frameId":"2F1650D4EC1CE49B79EAE59055007B27"}}},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.547 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://new-tab-page","name":"","uniqueId":"-8672752417355396070.-6252507376444458477","auxData":{"isDefault":true,"type":"default","frameId":"4FCFA9A539F01877EE402A86D1375538"}}},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.548 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"id":5,"result":{},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.550 [main] DEBUG c.i.k.driver.chrome_1710686958716 - >> {"id":6,"sessionId":"9D3FA25F958FF326CC7E73319628645A","method":"Browser.getWindowForTarget","params":{"targetId":"4FCFA9A539F01877EE402A86D1375538"}}
+20:19:20.552 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"id":6,"result":{"windowId":1214676006,"bounds":{"left":9,"top":9,"width":1051,"height":798,"windowState":"normal"}},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.648 [main] DEBUG c.i.k.driver.chrome_1710686958716 - >> {"id":7,"sessionId":"9D3FA25F958FF326CC7E73319628645A","method":"Page.navigate","params":{"url":"https:\/\/www.saucedemo.com\/"}}
+20:19:20.655 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Page.frameStartedLoading","params":{"frameId":"4FCFA9A539F01877EE402A86D1375538"},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.787 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"id":7,"result":{"frameId":"4FCFA9A539F01877EE402A86D1375538","loaderId":"2ED8C6DA78990E73FE19DED0A2DBCA81"},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.789 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.797 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"4FCFA9A539F01877EE402A86D1375538","type":"page","title":"saucedemo.com","url":"https://www.saucedemo.com/","attached":true,"canAccessOpener":false,"browserContextId":"F8ADD5568ACEB5C2DAAAF50F20B833CE"}},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.798 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.799 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"4FCFA9A539F01877EE402A86D1375538","loaderId":"2ED8C6DA78990E73FE19DED0A2DBCA81","url":"https://www.saucedemo.com/","domainAndRegistry":"saucedemo.com","securityOrigin":"https://www.saucedemo.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.803 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.saucedemo.com","name":"","uniqueId":"8525069816167040125.256434082506634150","auxData":{"isDefault":true,"type":"default","frameId":"4FCFA9A539F01877EE402A86D1375538"}}},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.812 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Page.frameDetached","params":{"frameId":"110E21ABA5DEF587FDDC5EE71833811D","reason":"remove"},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:20.813 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Target.targetDestroyed","params":{"targetId":"110E21ABA5DEF587FDDC5EE71833811D"},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:21.609 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Page.domContentEventFired","params":{"timestamp":341520.582327},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:21.611 [main] DEBUG c.i.k.driver.chrome_1710686958716 - >> {"id":8,"sessionId":"9D3FA25F958FF326CC7E73319628645A","method":"Target.closeTarget","params":{"targetId":"4FCFA9A539F01877EE402A86D1375538"}}
+20:19:21.614 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"id":8,"result":{"success":true},"sessionId":"9D3FA25F958FF326CC7E73319628645A"}
+20:19:21.618 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710686958716 - << {"method":"Inspector.detached","params":{"reason":"target_closed"}}
+20:19:21.621 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client disconnected
+20:19:21.643 [main] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1710686958716
+20:19:21.932 [chrome_1710686958716] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chrome_1710686958716, --disable-popup-blocking] working dir: target\chrome_1710686958716
+20:19:22.363 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/tests/RunUIAutomationScriptInChrome.feature
+20:20:16.042 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:20:16.050 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710687016046
+20:20:17.037 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:20:17.114 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+20:20:17.123 [chrome_1710687017105] DEBUG c.i.k.driver.chrome_1710687017105 - command: [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chrome_1710687017105, --disable-popup-blocking], working dir: target\chrome_1710687017105
+20:20:17.129 [main] DEBUG c.i.k.driver.chrome_1710687017105 - poll attempt #0 for port to be ready - localhost:9222
+20:20:17.312 [chrome_1710687017105-out] DEBUG c.i.k.driver.chrome_1710687017105 - 
+20:20:17.313 [chrome_1710687017105-out] DEBUG c.i.k.driver.chrome_1710687017105 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/d50ace46-d40a-433f-b81f-ea275c9ffd27
+20:20:17.451 [main] DEBUG c.i.k.driver.chrome_1710687017105 - poll attempt #1 for port to be ready - localhost:9222
+20:20:18.506 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:20:18.562 [main] DEBUG com.intuit.karate - response time in milliseconds: 53
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1267
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/F56F8E210791A1E7E46FC3A01D0CDC74",
+   "id": "F56F8E210791A1E7E46FC3A01D0CDC74",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/F56F8E210791A1E7E46FC3A01D0CDC74"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/3795DB48E2303DC41E176F889015732A",
+   "id": "3795DB48E2303DC41E176F889015732A",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/3795DB48E2303DC41E176F889015732A"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/DA568FEB9CB9E7241BA48E48F8A421BE",
+   "id": "DA568FEB9CB9E7241BA48E48F8A421BE",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/DA568FEB9CB9E7241BA48E48F8A421BE"
+} ]
+
+
+20:20:18.574 [main] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 1055 ms - http://localhost:9222/json
+20:20:18.576 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:20:18.581 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1787
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/F56F8E210791A1E7E46FC3A01D0CDC74",
+   "id": "F56F8E210791A1E7E46FC3A01D0CDC74",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/F56F8E210791A1E7E46FC3A01D0CDC74"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/3795DB48E2303DC41E176F889015732A",
+   "id": "3795DB48E2303DC41E176F889015732A",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/3795DB48E2303DC41E176F889015732A"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/DA568FEB9CB9E7241BA48E48F8A421BE",
+   "id": "DA568FEB9CB9E7241BA48E48F8A421BE",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/DA568FEB9CB9E7241BA48E48F8A421BE"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/CE46C9E0C4BF1E42C400ACAE3AD20DA4",
+   "id": "CE46C9E0C4BF1E42C400ACAE3AD20DA4",
+   "parentId": "DA568FEB9CB9E7241BA48E48F8A421BE",
+   "title": "chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=",
+   "type": "iframe",
+   "url": "chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/CE46C9E0C4BF1E42C400ACAE3AD20DA4"
+} ]
+
+
+20:20:18.588 [main] DEBUG c.i.k.driver.chrome_1710687017105 - root frame id: DA568FEB9CB9E7241BA48E48F8A421BE
+20:20:18.909 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client connected
+20:20:18.912 [main] DEBUG c.i.k.driver.chrome_1710687017105 - >> {"id":1,"method":"Target.attachToTarget","params":{"targetId":"DA568FEB9CB9E7241BA48E48F8A421BE","flatten":true}}
+20:20:18.927 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Target.attachedToTarget","params":{"sessionId":"06A3BDFDAD326C2E75C2FA2506367323","targetInfo":{"targetId":"DA568FEB9CB9E7241BA48E48F8A421BE","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"792A670EB9DD8404539769514BBC8123"},"waitingForDebugger":false}}
+20:20:18.927 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"id":1,"result":{"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}}
+20:20:18.929 [main] DEBUG c.i.k.driver.chrome_1710687017105 - >> {"id":2,"sessionId":"06A3BDFDAD326C2E75C2FA2506367323","method":"Target.activateTarget","params":{"targetId":"DA568FEB9CB9E7241BA48E48F8A421BE"}}
+20:20:18.933 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"id":2,"result":{},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:18.934 [main] DEBUG c.i.k.driver.chrome_1710687017105 - >> {"id":3,"sessionId":"06A3BDFDAD326C2E75C2FA2506367323","method":"Target.setDiscoverTargets","params":{"discover":true}}
+20:20:18.936 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"3795DB48E2303DC41E176F889015732A","type":"background_page","title":"Google Hangouts","url":"chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html","attached":false,"canAccessOpener":false,"browserContextId":"792A670EB9DD8404539769514BBC8123"}},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:18.937 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"CE46C9E0C4BF1E42C400ACAE3AD20DA4","type":"iframe","title":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","url":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","attached":false,"canAccessOpener":false,"browserContextId":"792A670EB9DD8404539769514BBC8123"}},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:18.937 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"DA568FEB9CB9E7241BA48E48F8A421BE","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"792A670EB9DD8404539769514BBC8123"}},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:18.938 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"F56F8E210791A1E7E46FC3A01D0CDC74","type":"background_page","title":"Google Network Speech","url":"chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"792A670EB9DD8404539769514BBC8123"}},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:18.938 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"id":3,"result":{},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:18.939 [main] DEBUG c.i.k.driver.chrome_1710687017105 - >> {"id":4,"sessionId":"06A3BDFDAD326C2E75C2FA2506367323","method":"Page.enable"}
+20:20:18.940 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"id":4,"result":{},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:18.941 [main] DEBUG c.i.k.driver.chrome_1710687017105 - >> {"id":5,"sessionId":"06A3BDFDAD326C2E75C2FA2506367323","method":"Runtime.enable"}
+20:20:18.943 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"chrome://new-tab-page","name":"","uniqueId":"2899190773548422977.-7900267069649114328","auxData":{"isDefault":true,"type":"default","frameId":"CF3D0882E28A2ED7A9723C22378A3F4D"}}},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:18.944 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://new-tab-page","name":"","uniqueId":"-6230847007943065590.-4827408360732155802","auxData":{"isDefault":true,"type":"default","frameId":"DA568FEB9CB9E7241BA48E48F8A421BE"}}},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:18.945 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"id":5,"result":{},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:18.946 [main] DEBUG c.i.k.driver.chrome_1710687017105 - >> {"id":6,"sessionId":"06A3BDFDAD326C2E75C2FA2506367323","method":"Browser.getWindowForTarget","params":{"targetId":"DA568FEB9CB9E7241BA48E48F8A421BE"}}
+20:20:18.948 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"id":6,"result":{"windowId":293252385,"bounds":{"left":9,"top":9,"width":1051,"height":798,"windowState":"normal"}},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:19.052 [main] DEBUG c.i.k.driver.chrome_1710687017105 - >> {"id":7,"sessionId":"06A3BDFDAD326C2E75C2FA2506367323","method":"Page.navigate","params":{"url":"https:\/\/www.saucedemo.com\/"}}
+20:20:19.060 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Page.frameStartedLoading","params":{"frameId":"DA568FEB9CB9E7241BA48E48F8A421BE"},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:19.240 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"id":7,"result":{"frameId":"DA568FEB9CB9E7241BA48E48F8A421BE","loaderId":"E551F5FAE7CB88E147148259B1BB54E7"},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:19.252 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:19.255 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"DA568FEB9CB9E7241BA48E48F8A421BE","type":"page","title":"saucedemo.com","url":"https://www.saucedemo.com/","attached":true,"canAccessOpener":false,"browserContextId":"792A670EB9DD8404539769514BBC8123"}},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:19.256 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:19.257 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"DA568FEB9CB9E7241BA48E48F8A421BE","loaderId":"E551F5FAE7CB88E147148259B1BB54E7","url":"https://www.saucedemo.com/","domainAndRegistry":"saucedemo.com","securityOrigin":"https://www.saucedemo.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:19.259 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.saucedemo.com","name":"","uniqueId":"5076982503241263674.-3011814892351626913","auxData":{"isDefault":true,"type":"default","frameId":"DA568FEB9CB9E7241BA48E48F8A421BE"}}},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:19.284 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Page.frameDetached","params":{"frameId":"CE46C9E0C4BF1E42C400ACAE3AD20DA4","reason":"remove"},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:19.285 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Target.targetDestroyed","params":{"targetId":"CE46C9E0C4BF1E42C400ACAE3AD20DA4"},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:19.542 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"method":"Page.domContentEventFired","params":{"timestamp":341578.516228},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:19.548 [main] DEBUG c.i.k.driver.chrome_1710687017105 - >> {"id":8,"sessionId":"06A3BDFDAD326C2E75C2FA2506367323","method":"Target.closeTarget","params":{"targetId":"DA568FEB9CB9E7241BA48E48F8A421BE"}}
+20:20:19.549 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687017105 - << {"id":8,"result":{"success":true},"sessionId":"06A3BDFDAD326C2E75C2FA2506367323"}
+20:20:19.554 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket closing
+20:20:19.555 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client disconnected
+20:20:19.575 [main] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1710687017105
+20:20:20.190 [chrome_1710687017105] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chrome_1710687017105, --disable-popup-blocking] working dir: target\chrome_1710687017105
+20:20:20.352 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/tests/RunUIAutomationScriptInChrome.feature
+20:20:53.020 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:20:53.030 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710687053025
+20:20:54.024 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:20:54.100 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+20:20:54.103 [chrome_1710687054091] DEBUG c.i.k.driver.chrome_1710687054091 - command: [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chrome_1710687054091, --disable-popup-blocking], working dir: target\chrome_1710687054091
+20:20:54.112 [main] DEBUG c.i.k.driver.chrome_1710687054091 - poll attempt #0 for port to be ready - localhost:9222
+20:20:54.309 [chrome_1710687054091-out] DEBUG c.i.k.driver.chrome_1710687054091 - 
+20:20:54.310 [chrome_1710687054091-out] DEBUG c.i.k.driver.chrome_1710687054091 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/c08bdf0c-157e-4b7a-915e-31eeecb5fc4f
+20:20:54.376 [main] DEBUG c.i.k.driver.chrome_1710687054091 - poll attempt #1 for port to be ready - localhost:9222
+20:20:55.462 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:20:55.508 [main] DEBUG com.intuit.karate - response time in milliseconds: 41
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1267
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/E92A052DBDE3DD4FF9FEB7B2785C7DFA",
+   "id": "E92A052DBDE3DD4FF9FEB7B2785C7DFA",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/E92A052DBDE3DD4FF9FEB7B2785C7DFA"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/18ED080544A07C11E81B68432ECC3E7E",
+   "id": "18ED080544A07C11E81B68432ECC3E7E",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/18ED080544A07C11E81B68432ECC3E7E"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/FC92D3DD9C396296AE8523393C420A94",
+   "id": "FC92D3DD9C396296AE8523393C420A94",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/FC92D3DD9C396296AE8523393C420A94"
+} ]
+
+
+20:20:55.516 [main] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 1046 ms - http://localhost:9222/json
+20:20:55.529 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:20:55.531 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1267
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/E92A052DBDE3DD4FF9FEB7B2785C7DFA",
+   "id": "E92A052DBDE3DD4FF9FEB7B2785C7DFA",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/E92A052DBDE3DD4FF9FEB7B2785C7DFA"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/18ED080544A07C11E81B68432ECC3E7E",
+   "id": "18ED080544A07C11E81B68432ECC3E7E",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/18ED080544A07C11E81B68432ECC3E7E"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/FC92D3DD9C396296AE8523393C420A94",
+   "id": "FC92D3DD9C396296AE8523393C420A94",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/FC92D3DD9C396296AE8523393C420A94"
+} ]
+
+
+20:20:55.535 [main] DEBUG c.i.k.driver.chrome_1710687054091 - root frame id: FC92D3DD9C396296AE8523393C420A94
+20:20:55.878 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client connected
+20:20:55.880 [main] DEBUG c.i.k.driver.chrome_1710687054091 - >> {"id":1,"method":"Target.attachToTarget","params":{"targetId":"FC92D3DD9C396296AE8523393C420A94","flatten":true}}
+20:20:55.899 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Target.attachedToTarget","params":{"sessionId":"465F173F7352F0BC65AB2EFDA837D61A","targetInfo":{"targetId":"FC92D3DD9C396296AE8523393C420A94","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"CAA8D7602AC0A2951A6E31F2A8E2D01B"},"waitingForDebugger":false}}
+20:20:55.900 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"id":1,"result":{"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}}
+20:20:55.900 [main] DEBUG c.i.k.driver.chrome_1710687054091 - >> {"id":2,"sessionId":"465F173F7352F0BC65AB2EFDA837D61A","method":"Target.activateTarget","params":{"targetId":"FC92D3DD9C396296AE8523393C420A94"}}
+20:20:55.903 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"id":2,"result":{},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:55.904 [main] DEBUG c.i.k.driver.chrome_1710687054091 - >> {"id":3,"sessionId":"465F173F7352F0BC65AB2EFDA837D61A","method":"Target.setDiscoverTargets","params":{"discover":true}}
+20:20:55.905 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"18ED080544A07C11E81B68432ECC3E7E","type":"background_page","title":"Google Hangouts","url":"chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html","attached":false,"canAccessOpener":false,"browserContextId":"CAA8D7602AC0A2951A6E31F2A8E2D01B"}},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:55.906 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"A7DB15EE4967919048CE1F01B91DCA8A","type":"iframe","title":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","url":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","attached":false,"canAccessOpener":false,"browserContextId":"CAA8D7602AC0A2951A6E31F2A8E2D01B"}},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:55.907 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"E92A052DBDE3DD4FF9FEB7B2785C7DFA","type":"background_page","title":"Google Network Speech","url":"chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"CAA8D7602AC0A2951A6E31F2A8E2D01B"}},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:55.908 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"FC92D3DD9C396296AE8523393C420A94","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"CAA8D7602AC0A2951A6E31F2A8E2D01B"}},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:55.908 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"id":3,"result":{},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:55.908 [main] DEBUG c.i.k.driver.chrome_1710687054091 - >> {"id":4,"sessionId":"465F173F7352F0BC65AB2EFDA837D61A","method":"Page.enable"}
+20:20:55.910 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"id":4,"result":{},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:55.911 [main] DEBUG c.i.k.driver.chrome_1710687054091 - >> {"id":5,"sessionId":"465F173F7352F0BC65AB2EFDA837D61A","method":"Runtime.enable"}
+20:20:55.913 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"chrome://new-tab-page","name":"","uniqueId":"623049757513873117.1266736196972728813","auxData":{"isDefault":true,"type":"default","frameId":"430FA342C8D42D392C4B5711B33497D2"}}},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:55.914 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://new-tab-page","name":"","uniqueId":"-8052386726887257935.-4071441520400116781","auxData":{"isDefault":true,"type":"default","frameId":"FC92D3DD9C396296AE8523393C420A94"}}},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:55.915 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"id":5,"result":{},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:55.916 [main] DEBUG c.i.k.driver.chrome_1710687054091 - >> {"id":6,"sessionId":"465F173F7352F0BC65AB2EFDA837D61A","method":"Browser.getWindowForTarget","params":{"targetId":"FC92D3DD9C396296AE8523393C420A94"}}
+20:20:55.917 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"id":6,"result":{"windowId":1638534396,"bounds":{"left":9,"top":9,"width":1051,"height":798,"windowState":"normal"}},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:56.016 [main] DEBUG c.i.k.driver.chrome_1710687054091 - >> {"id":7,"sessionId":"465F173F7352F0BC65AB2EFDA837D61A","method":"Page.navigate","params":{"url":"https:\/\/www.saucedemo.com\/"}}
+20:20:56.023 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Page.frameStartedLoading","params":{"frameId":"FC92D3DD9C396296AE8523393C420A94"},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:56.163 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"id":7,"result":{"frameId":"FC92D3DD9C396296AE8523393C420A94","loaderId":"4074DC9941C1E322FFC0522C1A3224F7"},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:56.165 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:56.180 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"FC92D3DD9C396296AE8523393C420A94","type":"page","title":"saucedemo.com","url":"https://www.saucedemo.com/","attached":true,"canAccessOpener":false,"browserContextId":"CAA8D7602AC0A2951A6E31F2A8E2D01B"}},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:56.180 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:56.181 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"FC92D3DD9C396296AE8523393C420A94","loaderId":"4074DC9941C1E322FFC0522C1A3224F7","url":"https://www.saucedemo.com/","domainAndRegistry":"saucedemo.com","securityOrigin":"https://www.saucedemo.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:56.182 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.saucedemo.com","name":"","uniqueId":"7971803846821036183.-3197966084908637287","auxData":{"isDefault":true,"type":"default","frameId":"FC92D3DD9C396296AE8523393C420A94"}}},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:56.202 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Page.frameDetached","params":{"frameId":"A7DB15EE4967919048CE1F01B91DCA8A","reason":"remove"},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:56.203 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Target.targetDestroyed","params":{"targetId":"A7DB15EE4967919048CE1F01B91DCA8A"},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:56.435 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Page.domContentEventFired","params":{"timestamp":341615.409704},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:56.830 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"E5680946A058E45A48C7288FD70FAF71","type":"service_worker","title":"Service Worker https://www.saucedemo.com/service-worker.js","url":"https://www.saucedemo.com/service-worker.js","attached":false,"canAccessOpener":false,"browserContextId":"CAA8D7602AC0A2951A6E31F2A8E2D01B"}},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:56.833 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Page.loadEventFired","params":{"timestamp":341615.801973},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:56.836 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"FC92D3DD9C396296AE8523393C420A94"},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:57.125 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"method":"Runtime.consoleAPICalled","params":{"type":"log","args":[{"type":"string","value":"Content is cached for offline use."}],"executionContextId":1,"timestamp":1.710687057124174e+12,"stackTrace":{"callFrames":[{"functionName":"console.<computed>","scriptId":"6","url":"https://www.saucedemo.com/static/js/2.9b02e67e.chunk.js","lineNumber":1,"columnNumber":117866},{"functionName":"c.onstatechange","scriptId":"7","url":"https://www.saucedemo.com/static/js/main.9735b7ab.chunk.js","lineNumber":0,"columnNumber":56179}]}},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:57.126 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - [console] Content is cached for offline use.
+20:20:58.474 [main] DEBUG c.i.k.driver.chrome_1710687054091 - >> {"id":8,"sessionId":"465F173F7352F0BC65AB2EFDA837D61A","method":"Target.closeTarget","params":{"targetId":"FC92D3DD9C396296AE8523393C420A94"}}
+20:20:58.476 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687054091 - << {"id":8,"result":{"success":true},"sessionId":"465F173F7352F0BC65AB2EFDA837D61A"}
+20:20:58.480 [nioEventLoopGroup-2-1] ERROR c.i.k.http.WebSocketClientHandler - websocket exception: An established connection was aborted by the software in your host machine
+20:20:58.482 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client disconnected
+20:20:58.485 [main] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1710687054091
+20:20:58.825 [chrome_1710687054091] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chrome_1710687054091, --disable-popup-blocking] working dir: target\chrome_1710687054091
+20:20:59.249 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/tests/RunUIAutomationScriptInChrome.feature
+20:22:31.942 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:22:31.962 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710687151958
+20:22:33.336 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:22:33.447 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+20:22:33.456 [chrome_1710687153435] DEBUG c.i.k.driver.chrome_1710687153435 - command: [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chrome_1710687153435, --disable-popup-blocking], working dir: target\chrome_1710687153435
+20:22:33.465 [main] DEBUG c.i.k.driver.chrome_1710687153435 - poll attempt #0 for port to be ready - localhost:9222
+20:22:33.693 [chrome_1710687153435-out] DEBUG c.i.k.driver.chrome_1710687153435 - 
+20:22:33.694 [chrome_1710687153435-out] DEBUG c.i.k.driver.chrome_1710687153435 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/efe1eb75-c82c-46ac-b3b3-0a0ea0391385
+20:22:33.749 [main] DEBUG c.i.k.driver.chrome_1710687153435 - poll attempt #1 for port to be ready - localhost:9222
+20:22:35.534 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:22:35.567 [main] DEBUG com.intuit.karate - response time in milliseconds: 30
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1267
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/042414F4A3276439ABC477BC3768AB17",
+   "id": "042414F4A3276439ABC477BC3768AB17",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/042414F4A3276439ABC477BC3768AB17"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/9168090A4634B738862D9A7EB38B699D",
+   "id": "9168090A4634B738862D9A7EB38B699D",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/9168090A4634B738862D9A7EB38B699D"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/C3B1419C7DA67D56625E994E7F0728AE",
+   "id": "C3B1419C7DA67D56625E994E7F0728AE",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/C3B1419C7DA67D56625E994E7F0728AE"
+} ]
+
+
+20:22:35.572 [main] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 1751 ms - http://localhost:9222/json
+20:22:35.574 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:22:35.576 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1267
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/042414F4A3276439ABC477BC3768AB17",
+   "id": "042414F4A3276439ABC477BC3768AB17",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/042414F4A3276439ABC477BC3768AB17"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/9168090A4634B738862D9A7EB38B699D",
+   "id": "9168090A4634B738862D9A7EB38B699D",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/9168090A4634B738862D9A7EB38B699D"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/C3B1419C7DA67D56625E994E7F0728AE",
+   "id": "C3B1419C7DA67D56625E994E7F0728AE",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/C3B1419C7DA67D56625E994E7F0728AE"
+} ]
+
+
+20:22:35.581 [main] DEBUG c.i.k.driver.chrome_1710687153435 - root frame id: C3B1419C7DA67D56625E994E7F0728AE
+20:22:36.092 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client connected
+20:22:36.096 [main] DEBUG c.i.k.driver.chrome_1710687153435 - >> {"id":1,"method":"Target.attachToTarget","params":{"targetId":"C3B1419C7DA67D56625E994E7F0728AE","flatten":true}}
+20:22:36.114 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Target.attachedToTarget","params":{"sessionId":"BB6716237F5F3C297533B293F563BC46","targetInfo":{"targetId":"C3B1419C7DA67D56625E994E7F0728AE","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"42605E3139E92E6B18E1A5D1B4BCE7D4"},"waitingForDebugger":false}}
+20:22:36.115 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"id":1,"result":{"sessionId":"BB6716237F5F3C297533B293F563BC46"}}
+20:22:36.116 [main] DEBUG c.i.k.driver.chrome_1710687153435 - >> {"id":2,"sessionId":"BB6716237F5F3C297533B293F563BC46","method":"Target.activateTarget","params":{"targetId":"C3B1419C7DA67D56625E994E7F0728AE"}}
+20:22:36.119 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"id":2,"result":{},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.120 [main] DEBUG c.i.k.driver.chrome_1710687153435 - >> {"id":3,"sessionId":"BB6716237F5F3C297533B293F563BC46","method":"Target.setDiscoverTargets","params":{"discover":true}}
+20:22:36.122 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"042414F4A3276439ABC477BC3768AB17","type":"background_page","title":"Google Network Speech","url":"chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"42605E3139E92E6B18E1A5D1B4BCE7D4"}},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.123 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"9168090A4634B738862D9A7EB38B699D","type":"background_page","title":"Google Hangouts","url":"chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html","attached":false,"canAccessOpener":false,"browserContextId":"42605E3139E92E6B18E1A5D1B4BCE7D4"}},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.125 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"C3B1419C7DA67D56625E994E7F0728AE","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"42605E3139E92E6B18E1A5D1B4BCE7D4"}},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.126 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"EFBDA9FACD135FAC75BB35C478C68A91","type":"iframe","title":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","url":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","attached":false,"canAccessOpener":false,"browserContextId":"42605E3139E92E6B18E1A5D1B4BCE7D4"}},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.126 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"id":3,"result":{},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.128 [main] DEBUG c.i.k.driver.chrome_1710687153435 - >> {"id":4,"sessionId":"BB6716237F5F3C297533B293F563BC46","method":"Page.enable"}
+20:22:36.129 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"id":4,"result":{},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.130 [main] DEBUG c.i.k.driver.chrome_1710687153435 - >> {"id":5,"sessionId":"BB6716237F5F3C297533B293F563BC46","method":"Runtime.enable"}
+20:22:36.131 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"chrome://new-tab-page","name":"","uniqueId":"-425602468083099650.-6195698171492847284","auxData":{"isDefault":true,"type":"default","frameId":"0BF138F8AC70547316B619E2398D8E50"}}},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.132 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://new-tab-page","name":"","uniqueId":"-4785788054619173000.7383090326294812040","auxData":{"isDefault":true,"type":"default","frameId":"C3B1419C7DA67D56625E994E7F0728AE"}}},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.132 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"id":5,"result":{},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.134 [main] DEBUG c.i.k.driver.chrome_1710687153435 - >> {"id":6,"sessionId":"BB6716237F5F3C297533B293F563BC46","method":"Browser.getWindowForTarget","params":{"targetId":"C3B1419C7DA67D56625E994E7F0728AE"}}
+20:22:36.135 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"id":6,"result":{"windowId":2104143417,"bounds":{"left":9,"top":9,"width":1051,"height":798,"windowState":"normal"}},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.280 [main] DEBUG c.i.k.driver.chrome_1710687153435 - >> {"id":7,"sessionId":"BB6716237F5F3C297533B293F563BC46","method":"Page.navigate","params":{"url":"https:\/\/www.saucedemo.com\/"}}
+20:22:36.299 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Page.frameStartedLoading","params":{"frameId":"C3B1419C7DA67D56625E994E7F0728AE"},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.431 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"id":7,"result":{"frameId":"C3B1419C7DA67D56625E994E7F0728AE","loaderId":"112F9722E49FCB0D2EF4A02CE967598D"},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.432 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.442 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"C3B1419C7DA67D56625E994E7F0728AE","type":"page","title":"saucedemo.com","url":"https://www.saucedemo.com/","attached":true,"canAccessOpener":false,"browserContextId":"42605E3139E92E6B18E1A5D1B4BCE7D4"}},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.444 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.445 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"C3B1419C7DA67D56625E994E7F0728AE","loaderId":"112F9722E49FCB0D2EF4A02CE967598D","url":"https://www.saucedemo.com/","domainAndRegistry":"saucedemo.com","securityOrigin":"https://www.saucedemo.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.446 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.saucedemo.com","name":"","uniqueId":"-7595097185402021242.-4052689546718770797","auxData":{"isDefault":true,"type":"default","frameId":"C3B1419C7DA67D56625E994E7F0728AE"}}},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.541 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Page.frameDetached","params":{"frameId":"EFBDA9FACD135FAC75BB35C478C68A91","reason":"remove"},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.542 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Target.targetDestroyed","params":{"targetId":"EFBDA9FACD135FAC75BB35C478C68A91"},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.755 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Page.domContentEventFired","params":{"timestamp":341715.729194},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.900 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"E04583C6AB07D985B998572AB03B1427","type":"service_worker","title":"Service Worker https://www.saucedemo.com/service-worker.js","url":"https://www.saucedemo.com/service-worker.js","attached":false,"canAccessOpener":false,"browserContextId":"42605E3139E92E6B18E1A5D1B4BCE7D4"}},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.901 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Page.loadEventFired","params":{"timestamp":341715.871432},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:36.902 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"C3B1419C7DA67D56625E994E7F0728AE"},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:37.506 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Runtime.consoleAPICalled","params":{"type":"log","args":[{"type":"string","value":"Content is cached for offline use."}],"executionContextId":1,"timestamp":1.710687157506222e+12,"stackTrace":{"callFrames":[{"functionName":"console.<computed>","scriptId":"7","url":"https://www.saucedemo.com/static/js/2.9b02e67e.chunk.js","lineNumber":1,"columnNumber":117866},{"functionName":"c.onstatechange","scriptId":"6","url":"https://www.saucedemo.com/static/js/main.9735b7ab.chunk.js","lineNumber":0,"columnNumber":56179}]}},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:37.507 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - [console] Content is cached for offline use.
+20:22:38.816 [main] DEBUG c.i.k.driver.chrome_1710687153435 - >> {"id":8,"sessionId":"BB6716237F5F3C297533B293F563BC46","method":"Target.closeTarget","params":{"targetId":"C3B1419C7DA67D56625E994E7F0728AE"}}
+20:22:38.819 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"id":8,"result":{"success":true},"sessionId":"BB6716237F5F3C297533B293F563BC46"}
+20:22:38.823 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1710687153435 - << {"method":"Inspector.detached","params":{"reason":"target_closed"}}
+20:22:38.825 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client disconnected
+20:22:38.833 [main] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1710687153435
+20:22:40.083 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/tests/RunUIAutomationScriptInChrome.feature
+20:22:40.123 [chrome_1710687153435] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chrome_1710687153435, --disable-popup-blocking] working dir: target\chrome_1710687153435
+20:23:49.030 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:23:49.040 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710687229034
+20:23:50.403 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:23:50.513 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+20:23:50.519 [chromedriver_1710687230501] DEBUG c.i.k.d.chromedriver_1710687230501 - command: [C:/Users/akhil/eclipse-workspace/KarateUIAutomation/src/test/java/BrowserDrivers/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chromedriver_1710687230501], working dir: target\chromedriver_1710687230501
+20:23:50.525 [main] DEBUG c.i.k.d.chromedriver_1710687230501 - poll attempt #0 for port to be ready - localhost:9515
+20:23:50.578 [chromedriver_1710687230501-out] DEBUG c.i.k.d.chromedriver_1710687230501 - Starting ChromeDriver 122.0.6261.128 (f18a44fedeb29764b2b5336c120fdd90ef1a3f5c-refs/branch-heads/6261@{#1057}) on port 9515
+20:23:50.579 [chromedriver_1710687230501-out] DEBUG c.i.k.d.chromedriver_1710687230501 - Only local connections are allowed.
+20:23:50.579 [chromedriver_1710687230501-out] DEBUG c.i.k.d.chromedriver_1710687230501 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+20:23:50.597 [chromedriver_1710687230501-out] DEBUG c.i.k.d.chromedriver_1710687230501 - ChromeDriver was started successfully.
+20:23:50.795 [main] DEBUG c.i.k.d.chromedriver_1710687230501 - poll attempt #1 for port to be ready - localhost:9515
+20:23:51.203 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 57
+1 > Host: localhost:9515
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+20:23:52.521 [main] DEBUG com.intuit.karate - response time in milliseconds: 1315
+1 < 200
+1 < Content-Length: 884
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"122.0.6261.129","chrome":{"chromedriverVersion":"122.0.6261.128 (f18a44fedeb29764b2b5336c120fdd90ef1a3f5c-refs/branch-heads/6261@{#1057})","userDataDir":"C:\\Users\\akhil\\AppData\\Local\\Temp\\scoped_dir13096_1593205131"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:64865"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"2d3ef783b6e6a29b708239ce0a893778"}}
+
+20:23:52.525 [main] DEBUG c.i.k.d.chromedriver_1710687230501 - init session id: 2d3ef783b6e6a29b708239ce0a893778
+20:23:52.713 [main] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9515/session/2d3ef783b6e6a29b708239ce0a893778/url
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 39
+2 > Host: localhost:9515
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/www.saucedemo.com\/"}
+
+20:23:53.271 [main] DEBUG com.intuit.karate - response time in milliseconds: 557
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+20:23:55.295 [main] DEBUG com.intuit.karate - request:
+3 > DELETE http://localhost:9515/session/2d3ef783b6e6a29b708239ce0a893778/window
+3 > Host: localhost:9515
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+3 > Accept-Encoding: gzip,deflate
+
+
+20:23:55.499 [main] DEBUG com.intuit.karate - response time in milliseconds: 203
+3 < 200
+3 < Content-Length: 12
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":[]}
+
+20:23:55.502 [main] DEBUG com.intuit.karate - request:
+4 > DELETE http://localhost:9515/session/2d3ef783b6e6a29b708239ce0a893778
+4 > Host: localhost:9515
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+4 > Accept-Encoding: gzip,deflate
+
+
+20:23:55.604 [main] DEBUG com.intuit.karate - response time in milliseconds: 102
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+20:23:55.604 [main] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1710687230501
+20:23:55.706 [chromedriver_1710687230501] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Users/akhil/eclipse-workspace/KarateUIAutomation/src/test/java/BrowserDrivers/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chromedriver_1710687230501] working dir: target\chromedriver_1710687230501
+20:23:56.559 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/tests/RunUIAutomationScriptInChrome.feature
+20:25:18.264 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:25:18.272 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710687318268
+20:25:19.619 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:25:19.726 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+20:25:19.730 [chromedriver_1710687319715] DEBUG c.i.k.d.chromedriver_1710687319715 - command: [chromedriver, --port=9515, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chromedriver_1710687319715], working dir: target\chromedriver_1710687319715
+20:25:19.740 [main] DEBUG c.i.k.d.chromedriver_1710687319715 - poll attempt #0 for port to be ready - localhost:9515
+20:25:19.798 [chromedriver_1710687319715-out] DEBUG c.i.k.d.chromedriver_1710687319715 - Starting ChromeDriver 122.0.6261.128 (f18a44fedeb29764b2b5336c120fdd90ef1a3f5c-refs/branch-heads/6261@{#1057}) on port 9515
+20:25:19.799 [chromedriver_1710687319715-out] DEBUG c.i.k.d.chromedriver_1710687319715 - Only local connections are allowed.
+20:25:19.799 [chromedriver_1710687319715-out] DEBUG c.i.k.d.chromedriver_1710687319715 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+20:25:19.806 [chromedriver_1710687319715-out] DEBUG c.i.k.d.chromedriver_1710687319715 - ChromeDriver was started successfully.
+20:25:20.005 [main] DEBUG c.i.k.d.chromedriver_1710687319715 - poll attempt #1 for port to be ready - localhost:9515
+20:25:20.428 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 57
+1 > Host: localhost:9515
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+20:25:21.619 [main] DEBUG com.intuit.karate - response time in milliseconds: 1189
+1 < 200
+1 < Content-Length: 884
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"122.0.6261.129","chrome":{"chromedriverVersion":"122.0.6261.128 (f18a44fedeb29764b2b5336c120fdd90ef1a3f5c-refs/branch-heads/6261@{#1057})","userDataDir":"C:\\Users\\akhil\\AppData\\Local\\Temp\\scoped_dir23512_1592194284"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:64901"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"0ef428b0eb97729ddc3d40c724b16162"}}
+
+20:25:21.625 [main] DEBUG c.i.k.d.chromedriver_1710687319715 - init session id: 0ef428b0eb97729ddc3d40c724b16162
+20:25:21.914 [main] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9515/session/0ef428b0eb97729ddc3d40c724b16162/url
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 39
+2 > Host: localhost:9515
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+{"url":"https:\/\/www.saucedemo.com\/"}
+
+20:25:22.544 [main] DEBUG com.intuit.karate - response time in milliseconds: 630
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+20:25:24.574 [main] DEBUG com.intuit.karate - request:
+3 > DELETE http://localhost:9515/session/0ef428b0eb97729ddc3d40c724b16162/window
+3 > Host: localhost:9515
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+3 > Accept-Encoding: gzip,deflate
+
+
+20:25:24.783 [main] DEBUG com.intuit.karate - response time in milliseconds: 209
+3 < 200
+3 < Content-Length: 12
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":[]}
+
+20:25:24.786 [main] DEBUG com.intuit.karate - request:
+4 > DELETE http://localhost:9515/session/0ef428b0eb97729ddc3d40c724b16162
+4 > Host: localhost:9515
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+4 > Accept-Encoding: gzip,deflate
+
+
+20:25:24.874 [main] DEBUG com.intuit.karate - response time in milliseconds: 87
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+20:25:24.874 [main] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1710687319715
+20:25:25.064 [chromedriver_1710687319715] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [chromedriver, --port=9515, --user-data-dir=C:\Users\akhil\eclipse-workspace\KarateUIAutomation\target\chromedriver_1710687319715] working dir: target\chromedriver_1710687319715
+20:25:25.824 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/tests/RunUIAutomationScriptInChrome.feature
