@@ -17,3 +17,6 @@ Feature: Change Browser Screen Size
     * delay(2000)
     * minimize()
     * delay(2000)
+
+    
+    
